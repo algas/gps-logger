@@ -1,0 +1,22 @@
+name:                gps-logger
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/algas/gps-logger#readme
+license:             BSD3
+author:              Masahiro Yamauchi
+maintainer:          sgt.yamauchi@gmail.com
+copyright:           2018 Masahiro Yamauchi
+category:            Development
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - bytestring
+  - binary
+
+executables:
+  gps-logger:
+    source-dirs: src
+    main: Main.hs
